@@ -1,27 +1,411 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>我的第一个网页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            padding: 20px;
-        }
-        h1 {
-            color: #007BFF;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <h1>欢迎来到我的网页！</h1>
-    <p>这是一个简单的 HTML 示例页面。</p>
-    <p>你可以点击 <a href="https://www.example.com" target="_blank">这里</a> 访问一个示例网站。</p>
-</body>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>易购网</title>
+		<link rel="icon" href="img/favico.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/frist.css" />
+		<link rel="stylesheet" type="text/css" href="css/second.css" />
+		<link rel="stylesheet" type="text/css" href="css/third.css" />
+		<link rel="stylesheet" type="text/css" href="css/fourth.css" />
+		<link rel="stylesheet" type="text/css" href="css/fifth.css" />
+		<link rel="stylesheet" type="text/css" href="css/sixth.css" />
+		<style type="text/css">
+			* {
+				padding: 0px;
+				margin: 0px;
+				text-decoration: none;
+				/*去掉链接下的横线*/
+				list-style-type: none;
+				/*去掉列表项的黑点*/
+				font-size: 12px;
+			}
+			#all {
+				width: 1010px;
+				margin: 50px auto;
+			}
+			#second {
+				width: 200px;
+			}
+
+			#frist {
+				width: 200px;
+			}
+
+			#third {
+				width: 200px;
+			}
+			#fourth {
+				float: right;
+				width: 800px;
+				position: relative;
+				top: -1083px;
+			}
+			#fifth {
+				float: right;
+				width: 800px;
+				position: relative;
+				top: -1098px;
+			}
+			#sixth {
+				float: right;
+				width: 800px;
+				position: relative;
+				top: -1114px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div id="frist">
+				<div id="idea5">
+					<h3><img src="img/ig-li.gif" /> <a href="#" id="nb">办公设备</a></h3>
+					<div id="main5">
+						<table>
+							<tr>
+								<h4><a href="#" class="mip">办公设备</a></h4>
+							</tr>
+							<tr>
+								<li><a href="#" class="four">打印机 &nbsp; &nbsp;一体机</a></li>
+								<li><a href="#" class="four">投影机 &nbsp; &nbsp;传真机</a></li>
+								<li><a href="#" class="four">复合机 &nbsp; &nbsp;碎纸机</a></li>
+								<li><a href="#" class="four">扫描仪 &nbsp; &nbsp;验钞机</a></li>
+								<li><a href="#" class="four">考勤机 &nbsp; &nbsp;收款机</a></h1>
+							</tr>
+							<div id="three">
+								<tr>
+									<h4><a href="#" class="mip">办公耗材</a></h4>
+								</tr>
+
+								<tr>
+									<li><a href="#" class="four"> 墨盒 &nbsp;&nbsp; &nbsp;&nbsp; 墨粉</a></li>
+									<li><a href="#" class="four"> 晒鼓 &nbsp;&nbsp; &nbsp;&nbsp; 色带</a></li>
+									<li><a href="#" class="four"> 笔类 &nbsp;&nbsp; &nbsp;&nbsp; 纸类</a></li>
+								</tr>
+							</div>
+
+
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="second">
+				<div id="tonglei">
+					<p class="first"><img src="img/ig-li.gif">&nbsp;<strong>同类推荐</strong></p>
+					<div id="li">
+						<table>
+							<tr>
+								<td><a href="#" title="佳能打印机Canon 腾彩 iP4680"><img src="img/01s.jpg" </a> </td>
+
+								<td> <a href="#" title="佳能打印机Canon 腾彩 iP4680" class="one"><br />佳能打印机Canon 腾彩 … </a>
+
+									<p class="price"><strong>￥1189.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td> <a href="#" title="普生（EPSON）ME1+  墨盒超便宜 买得起 用得起"> <img src="img/02s.jpg"> </a>
+								</td>
+
+								<td> <a href="#" title="普生（EPSON）ME1+  墨盒超便宜 买得起 用得起" class="one">爱普生（EPSON）ME1+ … </a>
+
+									<p class="price"><strong>￥369.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td> <a href="#" title="普（HP）OfficeJet H470B Printer 移动彩色喷墨打印机"> <img src="img/03s.jpg">
+									</a>
+								</td>
+
+								<td> <a href="#" title="普（HP）OfficeJet H470B Printer 移动彩色喷墨打印机"
+										class="one">惠普（HP）OfficeJet … </a>
+
+									<p class="price"><strong>￥2219.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td> <a href="#" title="普（HP）Officejet 6000 商用彩色喷墨打印机"> <img src="img/04s.jpg"> </a>
+								</td>
+
+								<td><a href="#" title="普（HP）Officejet 6000 商用彩色喷墨打印机" class="one">惠普（HP）Officejet … </a>
+
+									<p class="price"><strong>￥999.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#" title="普（HP）LaserJet 9040N A3黑白激光打印机"> <img src="img/05s.jpg"> </a></td>
+
+								<td><a href="#" title="普（HP）LaserJet 9040N A3黑白激光打印机" class="one">惠普（HP）LaserJet … </a>
+
+									<p class="price"><strong>￥36799.00</strong></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="third">
+				<div id="idea4">
+					<p class="one"><img src="img/ig-li.gif" />&nbsp;<strong>最近浏览的商品</strong></p>
+					<div id="main4">
+						<table>
+							<tr>
+								<td><a href="#"><img src="img/t07.jpg" id="one" /></a>
+									<p><strong>&yen;299.00</strong></p>
+								</td>
+								<td><a href="#"><img src="img/t02s.jpg" id="one" /></a>
+									<p><strong>&yen;1039.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#"><img src="img/t03s.jpg" id="one" /></a>
+									<p><strong>&yen;1349.00</strong></p>
+								</td>
+								<td><a href="#"><img src="img/t04s.jpg" id="one" /></a>
+									<p><strong>&yen;569.00</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#"><img src="img/t05s.jpg" id="one" /></a>
+									<p><strong>&yen;2099.00</strong></p>
+								</td>
+								<td><a href="#"><img src="img/t06s.jpg" id="one" /></a>
+									<p><strong>&yen;999.00</strong></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="fourth">
+				<div id="idea2">
+					<div id="menu2">
+						<p><img src="img/ig-li.gif">&nbsp;商品筛选</p>
+					</div>
+					<div id="main2">
+						<ul>
+							<li><strong>&nbsp;&nbsp;品牌：</strong></li>
+							<a href="#" class="one">
+								<li>全部</li>
+							</a>
+							<a href="#" class="two">
+								<li>惠普</li>
+							</a>
+							<a href="#" class="two">
+								<li>佳能</li>
+							</a>
+							<a href="#" class="two">
+								<li>爱普生</li>
+							</a>
+							<a href="#" class="two">
+								<li>富士</li>
+							</a>
+							<a href="#" class="two">
+								<li>佳博</li>
+							</a>
+							<a href="#" class="two">
+								<li>兄弟</li>
+							</a>
+						</ul>
+						<ul>
+							<li><strong>&nbsp;&nbsp;类型：</strong></li>
+							<a href="#" class="one">
+								<li>全部</li>
+							</a>
+							<a href="#" class="two">
+								<li>针式打印机</li>
+							</a>
+							<a href="#" class="two">
+								<li>激光打印机</li>
+							</a>
+							<a href="#" class="two">
+								<li>喷墨打印机</li>
+							</a>
+							<a href="#" class="two">
+								<li>条码打印机</li>
+							</a>
+							<a href="#" class="two">
+								<li>3D打印机</li>
+							</a>
+						</ul>
+						<ul>
+							<li><strong>&nbsp;&nbsp;价格：</strong></li>
+							<a href="#" class="one">
+								<li>全部</li>
+							</a>
+							<a href="#" class="two" class="two">
+								<li>0-400</li>
+							</a>
+							<a href="#" class="two">
+								<li>400-999</li>
+							</a>
+							<a href="#" class="two">
+								<li>1000-1499</li>
+							</a>
+							<a href="#" class="two">
+								<li>1500-1999</li>
+							</a>
+							<a href="#" class="two">
+								<li>2000以上</li>
+							</a>
+						</ul>
+						<ul>
+							<li><strong>&nbsp;&nbsp;幅面：</strong></li>
+							<a href="#" class="one">
+								<li>全部</li>
+							</a>
+							<a href="#" class="two">
+								<li>A6</li>
+							</a>
+							<a href="#" class="two">
+								<li>A4</li>
+							</a>
+							<a href="#" class="two">
+								<li>A3</li>
+							</a>
+							<a href="#" class="two">
+								<li>A2</li>
+							</a>
+						</ul>
+						<div class="clean"></div>
+					</div>
+				</div>
+			</div>
+			<div id="fifth">
+				<div id="idea">
+					<div id="menu">
+						<form name="biaodan" method="post">
+							<p>显示方式：
+								<a href=""><img src="img/p2.png"></a>
+								<a href=""><img src="img/p1.png"></a>
+								<a>排列方式:&nbsp;<select name="pailie"></a>
+								<option value="-1">默认排序</option>
+								<option value="1">价格从高到低排序</option>
+								<option value="2">价格从低到高排序</option>
+								<option value="3">时间从早到晚排序</option>
+								<option value="4">时间从晚到早排序</option>
+								</select>
+							</p>
+							<p class="one"><a href="#" class="three">上一页</a> <a href="#" class="three">下一页</a></p>
+						</form>
+					</div>
+					<div id="main">
+						<table>
+							<tr>
+								<td><img src="img/06s.jpg" class="two"></td>
+								<td>
+									<strong>惠普（HP）LaserJet 5200Lx A3黑白激光打印机</strong><br />商品卖点：<br />
+									惠普LaserJet
+									5200Lx是一款A3幅面黑白激光打印机，比较适合企业的大量财务数据报表、A3幅面的产品宣传材料、建筑业中的CAD制图的校样等打印。打印速度的加快、一字进纸方式的采用，都大大提升了该机的实用性…
+								</td>
+								<td>&yen;5800.00<br />
+									市场价格:&yen;6300.00<br />有现货<br />
+									<a href="#"><img src="img/btn_xiangxi.png"></a>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="img/07s.jpg" class="two"></td>
+								<td>
+									<strong>惠普（HP） Color LaserJet CP4025n 彩色激光打印机</strong><br />商品卖点：<br />
+									惠普（HP） Color LaserJet CP4025n 彩色激光打印机,以快捷的速度，打印专业品质的彩色文档。
+									高效的纸张处理能力和直观控制功能，可确保工作组获得较高的工作效率。 多种节能特性，可帮助您的企业节省大量资金…
+								</td>
+								<td>&yen;5800.00<br />
+									市场价格：<del>&yen;6300.00</del><br />有现货<br />
+									<a href="#"><img src="img/btn_xiangxi.png"></a>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="img/08s.jpg" class="two"></td>
+								<td>
+									<strong>惠普（HP） LaserJet P3015d 黑白激光打印机</strong><br />商品卖点：<br />
+									HP LaserJet P3015d
+									黑白激光打印机能够满足企业级用户按时、保量的双重要求，实现快速启动、快速完成打印作业。凭借高效动力、安全保障的特性，必将成为广大企业级用户的业务打印提供无限动力，满足用户不断变化的市场…
+								</td>
+								<td>&yen;5800.00<br />
+									市场价格：<del>&yen;6300.00</del><br />有现货<br />
+									<a href="#"><img src="img/btn_xiangxi.png"></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="foot">
+						<a href="#">首 页</a>
+						<a href="#">上一页</a>
+						<a href="#">1</a>
+						<a><strong>2</strong></a>
+						<a href="#">3</a>
+						<a href="#">下一页</a>
+						<a href="#">尾页</a>
+						<a><input value="2" type="text" / style="width: 25px;text-align: center;"></a>
+						<input value="go" type="button" />&nbsp;&nbsp;2/12 共： 140条记录
+					</div>
+				</div>
+			</div>
+			<div id="sixth">
+				<div id="main3">
+					<img src="img/tuijian.gif" />
+					<div id="idea3">
+						<div id="ac">
+							<div id="two">
+
+								<a href="#"><img src="img/t04.jpg" id="three"
+										title="HP 惠众系列彩色喷墨打印机Deskjet1010（CX015D）" /></a>
+								<a href="#" class="five">
+									<p>Deskjet1010（CX015D）HP彩色喷墨打印机，适用于家庭日常，学生作业，中小企业办公等打印 …</p>
+								</a>
+								<p class="seven"><strong>&yen;215.00</strong></p>
+								<img src="img/buybuy.gif" id="nine" />
+							</div>
+							<div class="four">
+								<a href="#" title="惠普hp1510家用打印机 彩色照片复印扫描 多功能一体机"><img src="img/t05.jpg"
+										class="six" /></a>
+								<a href="#" class="five" title="惠普hp1510家用打印机 彩色照片复印扫描 多功能一体机">
+									<p>惠普hp1510家用打印...</p>
+								</a>
+								<p class="seven"><strong>&yen;339.00</strong></p>
+							</div>
+							<div class="four">
+								<a href="#" title="爱普生(EPSON)针式打印机LQ-630K"><img src="img/t06.jpg" class="six" /></a>
+								<a href="#" class="five" title="爱普生(EPSON)针式打印机LQ-630K">
+									<p>爱普生 针式打印机...</p>
+								</a>
+								<p class="seven"><strong>&yen;1599</strong></p>
+							</div>
+							<div class="four">
+								<a href="#" title="佳能（Canon） MG2400 "><img src="img/t07.jpg" class="six" /></a>
+								<a href="#" class="five" title="佳能（Canon） MG2400 ">
+									<p>佳能（Canon） MG2400...</p>
+								</a>
+								<p class="seven"><strong>&yen;395</strong></p>
+							</div>
+							<div class="four">
+								<a href="#" title="兄弟（brother）HL-1118黑白激光打印机"><img src="img/t08.jpg" class="six" /></a>
+								<a href="#" class="five" title="兄弟（brother）HL-1118黑白激光打印机">
+									<p>兄弟 HL-1118...</p>
+								</a>
+								<p class="seven"><strong>&yen;589</strong></p>
+							</div>
+							<div class="four">
+								<a href="#" title="爱普生（EPSON）L301 墨仓式打印机 "><img src="img/t09.jpg" class="six" /></a>
+								<a href="#" class="five" title="爱普生（EPSON）L301 墨仓式打印机 ">
+									<p>爱普生 L301 墨仓式...</p>
+								</a>
+								<p class="seven"><strong>&yen;779</strong></p>
+							</div>
+							<div class="four">
+								<a href="#" title="HPDeskjet1010 惠众系列彩色喷墨打印机"><img src="img/t10.jpg" class="six" /></a>
+								<a href="#" class="five" title="HPDeskjet1010 惠众系列彩色喷墨打印机">
+									<p>HPDeskjet1010...</p>
+								</a>
+								<p class="seven"><strong>&yen;220</strong></p>
+
+							</div>
+						</div>
+
+						<div class="clean"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
