@@ -1,0 +1,73 @@
+*{
+				padding:0px;
+				margin:0px;
+				text-decoration:none;/*去掉链接下的横线*/
+				font-size:12px;
+				}
+				#main3{
+					width: 800px;
+					border-style: double;
+					margin: 10px auto;
+					
+				}
+				#main3 #one{
+				margin-top: 0px;
+				margin-left: 0px;
+				}
+				#main3 #two{
+					float: left;
+					width: 200px;
+					margin-top: 20px;
+					margin-left: 35px;
+					border: 2px solid #999;
+					
+				}
+				#main3 .four{
+					float: left;
+					margin-left: 35px;
+				}
+				
+				#main3 .four .six{
+					width: 130px;
+					height: 100px;
+					border: 1px solid #999999;
+					margin-top: 20px;
+				}
+				#main3 #two #three{
+					width: 180px;
+					height:150px;
+					border: 1px solid #999999;
+					margin-top:10px;
+					margin-left: 11px;
+				}
+				.clean{
+					clear: both;/*清楚浮动塌陷*/
+				}
+				#main3 .seven{
+					color: #bc0411;
+					text-align: center;
+				}
+				#main3 .five{
+					text-align: center;
+					color: black;
+				}
+				#main3 #two #nine{
+					margin: 5px;
+					margin-left: 65px;
+				}
+				#idea3{
+					margin-bottom: 20px;
+				}
+				#main3 a{
+					display: block;
+				}
+				#main3 a:hover{
+					color: blue;
+				}
+				#main3 .five:hover{
+					color: #0000FF;
+				}
+				#main3 #idea3 #ac{
+					position: relative;
+					margin-top: -80px;
+				}

@@ -1,0 +1,48 @@
+*{
+				margin: 0px;
+				padding: 0px;
+				text-decoration: none;/*清除链接的下划线*/
+				list-style-type: none;/*清除列表项前面的黑点*/
+				
+			}
+			#main5{
+				border: 1px solid #999;
+				width: 190px;
+				height: 250px;
+				background-color: white;
+				margin: 10px auto;
+				font-size: 12px;
+			}
+			#idea5{
+				border: 1px solid #999;
+				width: 200px;
+				height: 300px;
+				background-color: #f2f2f2;
+				margin: 10px auto;	
+			}
+			#three{
+				border-bottom:  1px solid #999999;
+			}
+			
+			
+			#idea5 #main5 li{
+				margin-left: 15px;
+				margin-top: 4px;
+			}
+			#main5 a{
+				color: black;
+			}
+			#idea5 #main5 .mip{
+				color: #FF0000;
+				margin-left: 10px;
+			}
+			#idea5 #nb{
+				font-size: 14px;
+				color: black;
+			}
+			#idea5 h3{
+				margin-left: 8px;
+			}
+			#idea5 table{
+				margin: 10px auto;
+			}

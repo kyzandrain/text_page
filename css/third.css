@@ -1,0 +1,37 @@
+*{
+				padding:0px;
+				margin:0px;
+				
+				}
+			#idea4{
+				width: 200px;
+				margin: 10px auto;
+				border: 1px solid #eeca9f;
+				background:#fff6ed;
+			}
+			#main4 img{
+				width: 70px;
+				height: 55px;
+			}
+			#main4 table{
+				margin: 10px auto;
+				border: 1px solid #eeca9f;
+				background: #fff;
+				font-size:12px;
+				
+			}
+			#idea4 table p{
+				text-align: center;
+				color: #BC0411;
+			}
+			#idea4 .one{
+				margin-top: 10px;
+				margin-left: 5px;
+			    font-size: 13px;
+			}
+			#main4 table #one{
+				margin-top: 15px;
+				margin-left: 10px;
+				margin-right: 10px;
+				
+			}

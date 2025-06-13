@@ -1,0 +1,51 @@
+* {
+				padding: 0px;
+				margin: 0px;
+
+			}
+
+			#tonglei {
+				width: 200px;
+				margin: 10px auto;
+				border: 1px solid #a0dafe;
+				background: #f3f8fe;
+			}
+
+			#li img {
+				width: 70px;
+				height: 55px;
+			}
+
+			#li table {
+				margin: 10px auto;
+				border: 1px solid #a0dafe;
+				background: #fff;
+				font-size: 12px;
+
+			}
+
+			#li table {
+				margin-top: 15px;
+				margin-left: 6px;
+				margin-right: 6px;
+				margin-bottom: 6px;
+			}
+
+			#tonglei #li table {
+				border-bottom: 1px solid #999999;
+			}
+
+			#tonglei #li table img {
+				margin-top: 15px;
+			}
+
+			#tonglei #li p {
+				color: red;
+			}
+			#tonglei #li .one{
+				color: #000000;
+			}
+			#tonglei .first img{
+			}
+			
+		</style>
